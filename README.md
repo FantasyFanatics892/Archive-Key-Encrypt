@@ -19,7 +19,7 @@ Program ini dibuat menggunakan bahasa **PHP** dan dirancang untuk menyimpan data
 - Opsi untuk menghentikan atau mengganti musik melalui antarmuka.
 
 ### 3. **Teks Berwarna**
-- Teks berwarna diterapkan menggunakan **CSS** untuk meningkatkan estetika.
+- Teks berwarna diterapkan menggunakan **Color Code ANSI** untuk meningkatkan estetika.
 - Status pesan (sukses, error, dll.) disesuaikan dengan warna tertentu:
   - **Hijau**: Operasi berhasil.
   - **Merah**: Operasi gagal.
@@ -30,16 +30,7 @@ Program ini dibuat menggunakan bahasa **PHP** dan dirancang untuk menyimpan data
 ## 🚀 Cara Menggunakan
 1. **Clone repository** ini:
    ```bash
-   git clone https://github.com/username/program-enkripsi.git
-   cd program-enkripsi
-
-2. Jalankan server lokal (misalnya menggunakan XAMPP):
-
-Letakkan folder proyek di dalam direktori htdocs.
-
-Buka browser dan akses http://localhost/program-enkripsi.
-
-
+   git clone https://github.com/FantasyFanatics892/Archive-Key-Encrypt.git
 
 3. Navigasi Program:
 
@@ -57,15 +48,6 @@ Nikmati backsound selama program berjalan.
 
 PHP: Untuk logika backend dan penyimpanan data sementara.
 
-HTML: Untuk struktur halaman.
-
-CSS: Untuk desain tabel dan teks berwarna.
-
-JavaScript: Untuk mengontrol backsound.
-
-Bootstrap/Bulma (Opsional): Untuk mempercantik antarmuka.
-
-
 
 ---
 
@@ -73,7 +55,7 @@ Bootstrap/Bulma (Opsional): Untuk mempercantik antarmuka.
 
 Fitur yang direncanakan di masa depan:
 
-1. Menyimpan kunci enkripsi secara permanen menggunakan database (MySQL).
+1. Menyimpan kunci enkripsi sementara. 
 
 
 2. Menambahkan fitur enkripsi/dekripsi file.
@@ -95,7 +77,7 @@ Proyek ini dilisensikan di bawah MIT License.
 
 🎶 Catatan
 
-Backsound default disimpan di dalam folder assets/audio/backsound.mp3. Anda dapat mengganti file ini dengan lagu pilihan Anda, pastikan formatnya MP3.
+Backsound default disimpan di dalam folder src/sound.mp3. Anda dapat mengganti file ini dengan lagu pilihan Anda, pastikan formatnya MP3.
 
 
 ---
